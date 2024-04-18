@@ -11,9 +11,10 @@ import { Button } from "../ui/button";
 
 const Sidebar = () => {
   const pathname = usePathname();
+
   return (
     <aside className="hidden h-screen w-72 bg-white p-5 shadow-md shadow-purple-200/50 lg:flex">
-      <div className="flex size-full flex-col gap-4">
+      <div className="flex size-full flex-col gap-8">
         <Link href="/" className="flex items-center gap-2 md:py-2">
           <Image
             src="/assets/images/logo-text.svg"
